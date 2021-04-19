@@ -1,0 +1,62 @@
+// medie queries(element layout)
+@mixin ss{
+  @media  (max-width: 480px) {
+      @content;
+  }
+}
+@mixin xs{
+  @media  (min-width: 481px) and (max-width: 767px) {
+      @content;
+  }
+}
+@mixin sm{
+  @media (min-width: 768px) and (max-width: 991px) {
+      @content;
+  }
+}
+@mixin md{
+  @media (min-width: 992px) and (max-width: 1199px) {
+      @content;
+  }
+}
+@mixin lg {
+  @media (min-width: 1200px) and (max-width: 1920px) {
+    @content;
+  } 
+}
+@mixin xl{
+  @media (min-width: 1921px){
+      @content;
+  }
+}
+// medie queries
+@mixin xsss{
+  @media (max-width: 767px) {
+      @content;
+  }
+}
+@mixin phone{
+  @media (max-width: 768px) {
+      @content;
+  }
+}
+@mixin ipad{
+  @media (min-width: 768px) and (max-width: 999px) {
+      @content;
+  }
+}
+@mixin samsung {
+  @media (min-width: 800px) and (max-width: 1280px) {
+    @content;
+  } 
+}
+@mixin ipadPro {
+  @media (min-width: 1001px) and (max-width: 1280px) {
+    @content;
+  } 
+}
+@mixin pc{
+  @media (min-width: 1281px){
+      @content;
+  }
+}

@@ -1,0 +1,61 @@
+.flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.flex-col {
+    display: flex;
+    flex-direction: column;
+}
+.flex-1{
+    flex: 1;
+}
+.align-center {
+    align-items: center;
+}
+.row-center {
+    justify-content: center;
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+.row-between {
+    justify-content: space-between;
+}
+.row-around {
+    justify-content: space-around;
+}
+.btn-group {
+    font-family: 'Calibri';
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+
+    .btn-primary {
+        width: 15%;
+        text-transform: uppercase;
+        margin-left: 40px;
+    }
+    .btn-secondary {
+        width: 15%;
+        text-transform: uppercase;
+    }
+}
+
+.text-ellipsis {
+    width: 100%;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.with-wrap {
+    white-space: pre-wrap;
+}
+.no-margin {
+    margin: 0;
+}
+.margin-auto {
+    margin: auto;
+}
